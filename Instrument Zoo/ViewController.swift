@@ -17,9 +17,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupGestureRecognizer()
-    }
-    
-    func setupInstruments(_ instruments: [Entity]) {
+        
         let xCoordinates: [Float] = [-0.7, 0, 0.7]
     }
 }
@@ -48,5 +46,6 @@ extension ViewController {
         static let guitar = "guitar.wav"
         static let trumpet = "trumpet.mp3"
         static let drums = "drums.wav"
+        static let all = [guitar, trumpet, drums]
     }
 }
